@@ -1,20 +1,17 @@
 简体中文 | [English](./README_EN.md)
 
 <p>
-<strong><h2>無名の主页</h2></strong>
+<strong><h2>松子分享の主页</h2></strong>
 简单的小主页，原来的看够了，重新弄了一个
 </p>
 
-![無名の主页](https://s2.loli.net/2022/07/14/K5JigfvDoNewtuS.webp)
-
->主页的 Logo 字体已经过压缩，若用本站 Logo 以外的字母会变回默认字体，这里是 [完整字体](https://file.imsyy.top/font/Pacifico-Regular.ttf)
+![松子分享の主页](https://imgse.com/i/vrlM2d)
 
 ### Demo
 
 >由于 CDN 缓存原因，查看最新效果可能需要 `Ctrl` + `F5` 强制刷新浏览器缓存
 
-- [無名の主页](https://www.imsyy.top)
-- [無名の主页 - 备用线路](https://home-imsyy.vercel.app/)
+- [松子分享の主页](https://szfx.top/home/)
 
 ### 功能
 
@@ -35,7 +32,6 @@
 由于原天气 API 不稳定，已更换天气 API，现需要前往以下网站获取 key
 
 - 前往 [ROLL](https://www.mxnzp.com/doc/list) 获取 app_id 和 app_secret，用于获取城市信息
-- 前往 [和风天气](https://dev.qweather.com/) 获取 key，用于获取天气信息
 
 也可自行更换其他方式
 
@@ -63,30 +59,28 @@
         "Oops !", //站点介绍标题点击后文字
         "哎呀，这都被你发现了 ( 再点击一次可关闭 )" //站点介绍内容点击后文字
     ],
-    "github": "imsyy", //Github 用户名
-    "qq": "1539250352", //QQ
-    "email": "one@imsyy.top", //Email电子邮件
-    "telegram": "bottom_user", //Telegram 用户名
-    "twitter": "iimmsyy", //Twitter用户名
-    "weather_api": "https://www.yiketianqi.com", //天气 API
+    "github": "", //Github 用户名
+    "qq": "", //QQ
+    "email": "p", //Email电子邮件
+    "bilibili": "", //bilibili 用户名
     "link_1": [
-        "https://blog.imsyy.top/", //链接地址
+        "https://blog.szfx.top/", //链接地址
         "fa-solid fa-blog", //图标类名
         "博客" //链接文字
     ],
     "link_2": [
-        "https://drive.imsyy.top/",
+        "https://cloud.jishusongshu.com/",
         "fa-solid fa-cloud",
         "网盘"
     ],
     "wallpaper_api": [
         [
             "每日一图", //壁纸设置项名称
-            "https://api.dujin.org/bing/1920.php" //壁纸图片链接
+            "https://api.szfx.top/bing/api" //壁纸图片链接
         ]
     ],
     "Copyright_year": "2020", //站点起始年份
-    "Copyright_text": "無名" //版权
+    "Copyright_text": "松子分享" //版权
 }
 ```
 
@@ -104,49 +98,6 @@ let server = "netease"; //netease: 网易云音乐; tencent: QQ音乐; kugou: �
 let type = "playlist"; //song: 单曲; playlist: 歌单; album: 唱片
 let id = "7452421335"; //封面 ID / 单曲 ID / 歌单 ID
 ```
-
-### 字体
-
-现采用 `HarmonyOS Sans` 开源字体，采用字体拆分，提升加载速度
-
->由于本站 `CDN` 已开启防盗链，**非本站域名不可访问**，请将字体引入链接更改为下方内容，否则 **自定义字体将失效**
->
->`https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css`
-
-<details>
-<summary>旧版方式</summary>
-
->由于本项目引入了中文字体，需要压缩中文字体以提高网页加载速度（ 也可以取消使用中文字体 ）
-
-#### 中文字体去除繁体
-
-- 安装 `Python 3.7` 和 `pip`
-- 运行 `pip install fonttools`
-- 下载 [sc_unicode.txt](https://gist.githubusercontent.com/imaegoo/d64e5088b723c2e02c40985f55ff12db/raw/5ebd2ce49418c73459a9dfe050483409306a6c1d/sc_unicode.txt)
-- 运行 `pyftsubset 字体名称.ttf --unicodes-file=sc_unicode.txt`
-
-#### 字体进一步压缩
-
-- 编译安装 `Google woff2`
-
-```bash
-sudo apt-get install -y git g++ make
-git clone --recursive https://github.com/google/woff2.git
-cd woff2
-make clean all
-```
-
-- 再压缩字体
-
-```
-./woff2_compress ./字体名称.ttf
-```
-
-- 最终可对原字体进行缓加载，**先行加载压缩后的字体**
-
->详细信息可前往 [虹墨空间站](https://www.imaegoo.com/2020/chinese-font-compress/) 查看原文
-
-</details>
 
 ### 插件
 
