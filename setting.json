@@ -1,46 +1,46 @@
 {
-    "title": "無名の主页",
+    "title": "松子分享の主页",
     "description": "一个默默无闻的主页",
-    "keywords": "無名,个人主页",
-    "author": "無名",
+    "keywords": "松子分享,个人主页",
+    "author": "松子分享",
     "logo_img": "./img/icon/logo.png",
-    "logo_text_1": "imsyy",
+    "logo_text_1": "szfx",
     "logo_text_2": "top",
-    "github": "imsyy",
-    "qq": "1539250352",
-    "email": "one@imsyy.top",
-    "bilibili": "98544142",
+    "github": "songshuxiao",
+    "qq": "2189287598",
+    "email": "jishusongshu@qq.com",
+    "bilibili": "349815672",
     "telegram": "bottom_user",
     "link_1": [
-        "https://blog.imsyy.top/",
+        "https://blog.szfx.top/",
         "fa-solid fa-blog",
         "博客"
     ],
     "link_2": [
-        "https://drive.imsyy.top/",
+        "https://cloud.jishusongshu.com/",
         "fa-solid fa-cloud",
         "网盘"
     ],
     "link_3": [
-        "https://music.imsyy.top/",
-        "fa-solid fa-music",
-        "音乐"
+        "https://share.szfx.top/",
+        "fa-solid fa-code",
+        "代码"
     ],
     "link_4": [
-        "https://nav.imsyy.top/",
+        "https://szfx.top/",
         "fa-solid fa-compass",
         "起始页"
     ],
     "link_5": [
-        "https://web.imsyy.top/",
+        "https://hao.jishusongshu.com/",
         "fa-solid fa-book-bookmark",
         "网址集"
     ],
     "link_6": [
-        "https://lab.imsyy.top/",
+        "https://api.szfx.top/",
         "fa-solid fa-flask",
-        "实验室"
+        "API"
     ],
-    "Copyright_text": "無名",
-    "beian": "豫ICP备2022018134号-1"
+    "Copyright_text": "松子分享",
+    "beian": "赣ICP备2020011452号-2 "
 }
